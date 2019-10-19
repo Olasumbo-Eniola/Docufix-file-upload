@@ -147,6 +147,11 @@ Resources
           @import "compass/css3";
 
 @import url("https://fonts.googleapis.com/css?family=Lato");
+            body{
+    padding: 60px 60px 90px 30px;
+    background-color: #EEF3F3;
+    font-family: 'Ubuntu', sans-serif;
+}
 
             * {
   box-sizing: border-box;
@@ -282,21 +287,28 @@ body {
     left: 400px;
     top: 477px;
 }
-input[type="submit"]{
-  position: absolute;
-  background: #000000;
-  border-radius: 30px solid #efefef;
-  text-decoration: none;
-  padding: 10x 27px;
-  display:  inline-block;
-  color: #efefef;
-  font-size: large;
-  float: center;
-  width: 160px;
-  height: 40px;
-  top: 480px;
-  left: 640px;
-}
+ #button{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+        button{
+            border-radius: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 15px 30px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+            button img{
+            width: 16.5px;
+            height: 16.5px;
+            vertical-align: middle;
+            margin-right: 10px;
+            }
   
         </style>
         </head>
@@ -350,7 +362,10 @@ input[type="submit"]{
 
    
    </div>
-   <input type="submit" value="Compare">
+   <button type="submit">
+            <img class="compare-img" src="https://res.cloudinary.com/dtbjhs8a6/image/upload/v1571193103/samples/figma%20career-list/lario/butfaguuckar9dl0i1ug.png">
+            <span class="compare-btn-txt">COMPARE</span>
+        </button>
             
    
     </body>
