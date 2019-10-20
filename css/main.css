@@ -136,18 +136,31 @@ body {
     left: 400px;
     top: 477px;
 }
-input[type="submit"]{
-  position: absolute;
-  background: #000000;
-  border-radius: 30px solid #efefef;
-  text-decoration: none;
-  padding: 10x 27px;
-  display:  inline-block;
-  color: #efefef;
-  font-size: large;
-  float: center;
-  width: 160px;
-  height: 40px;
-  top: 480px;
-  left: 640px;
-}
+#button{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 35px;
+    }
+        button{
+            position: absolute;
+            text-decoration: none;
+            display: inline-block;
+            top; 500px;
+            left: 640px;
+            border-radius: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 15px 30px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+                                                                                                                                                                           
+        }
+        
+            button img{
+            width: 16.5px;
+            height: 16.5px;
+            vertical-align: middle;
+            margin-right: 10px;
+            }
